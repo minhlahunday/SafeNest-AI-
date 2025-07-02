@@ -139,13 +139,13 @@ const CameraManagement: React.FC = () => {
 
       <div className="flex-1 flex">
         {/* Main Camera View */}
-        <div className="flex-1 bg-gray-900 relative">
+        <div className="flex-1 bg-gray-100 relative flex justify-center items-center">
           {selectedCameraData && (
-            <>
+            <div className="relative w-full max-w-5xl aspect-video">
               <img
                 src={selectedCameraData.image}
                 alt={selectedCameraData.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover rounded-lg"
               />
               
               {/* Camera Info Overlay */}
@@ -183,7 +183,7 @@ const CameraManagement: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           )}
         </div>
 
