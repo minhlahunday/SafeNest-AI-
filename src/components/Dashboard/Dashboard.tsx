@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, GraduationCap, Eye, TrendingUp, MapPin, Activity } from 'lucide-react';
+import { Users, GraduationCap, TrendingUp, MapPin, Activity } from 'lucide-react';
 import StatsCard from './StatsCard';
 import MapView from './MapView';
 import ActivityFeed from './ActivityFeed';
